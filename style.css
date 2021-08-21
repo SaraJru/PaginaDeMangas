@@ -1,0 +1,230 @@
+*{  margin: 0; padding: 0;}
+
+.social {
+	position: fixed;
+	right:0;
+	top: 300px;
+	z-index: 200;
+}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display: inline-block;
+    border-radius: 15px;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease;
+	}
+
+	.social ul li .icon-facebook2 {background:#1A62BD;}
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-instagram {background: #29222A;}
+
+	.social ul li a:hover {
+		background: #000;
+		padding: 10px 30px;
+	}
+
+body{
+  background-image: url(img/background.png);
+	background-position: center
+	 center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-attachment: fixed;
+}
+
+header{
+  width: 100%;
+  overflow: hidden;
+  background: #252932;
+  margin-bottom: 20px;
+}
+.wrapper {
+  width: 90%;
+  max-width: 1000%;
+  margin: auto;
+  overflow: hidden;
+}
+header .logo{
+  color: #f2f2f2;
+  font-size: 50px;
+	font-family: monospace;
+  line-height: 200px;
+  float: left;
+}
+
+header nav {
+  float: right;
+  line-height: 200px;
+}
+
+header nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+	font-family: monospace;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: bold
+  -webkit-transition:all 500ms ease;
+  -o-transition:all 500ms ease;
+  transition:all 500ms ease;
+}
+
+header nav a:hover{
+  background: #f56f3a;
+  border-radius: 50px;
+}
+
+.header2 {
+  position: fixed;
+  height: 100px;
+}
+
+.header2 .logo {
+  line-height: 100px;
+  font-size: 30px;
+}
+
+.header2 nav {
+  line-height: 100px;
+}
+
+@media screen and (max-width: 950px) {
+  header .logo,
+  header nav {
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+  }
+  .header2 {
+    height: auto;
+  }
+  .header2 .logo,
+  .header2 nav{
+    line-height: 50px;
+  }
+}
+
+footer {
+  background: #252932;
+  width: 100%;
+  overflow: auto;
+}
+
+.footer-second {
+  border-top: 2px;
+  text-align: center;
+  margin: 0;
+}
+
+.footer-second p, .footer-second a{
+  text-align: center;
+  color: #fff;
+  font-size: 100%;
+	text-decoration: none;
+	font-family: monospace;
+  line-height: 155%;
+}
+
+
+.grid{
+	padding-top: 20px;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 15px;
+}
+
+.grid img{
+	width: 100%;
+	border: 3px solid white;
+	border-radius: 20px;
+}
+
+img{
+	transition: all 0.5s ease;
+}
+img:hover{
+	transform: scale(0.9);
+}
+
+
+*{
+	box-sizing: border-box;
+}
+
+.Ventana{
+	background: #f8f8f8;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	width:600px ;
+	color: white;
+	font-family: monospace;
+	text-align: center;
+	padding: 20px;
+	min-height: 250px;
+	border-radius: 20px;
+	position: absolute;
+	left: 34%;
+	top: 40%;
+	display: none
+}
+
+#cerrar{
+	font-size: 30px;
+	position: absolute;
+	right: 3px;
+	top: 1px;
+}
+
+.Ventana h3{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	color: black;
+	font-family: monospace;
+}
+.Ventana h4{
+	font-size: 26px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	color: black;
+	font-family: monospace;
+}
+
+.Ventana form .contenedor-inputs input{
+	width: 100%;
+	margin-bottom: 20px;
+	height: 52px;
+	line-height: 52px;
+	font-size: 18px;
+	text-align: center;
+	border: 1px solid #BBBBBB;
+}
+
+.Ventana form .btn-submit{
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	color: #fff;
+	background: #5E7DE3;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .3 ease all;
+
+}
+
+.Ventana form .btn-submit:hover{
+	background: rgba(94, 125, 277, .7);
+}

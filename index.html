@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>マンガユニバース</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src=" http://code.jquery.com/jquery-latest.js"></script>
+    <script src="header.js"></script>
+  </head>
+  <body>
+    <div class="contenedor">
+
+    </div>
+
+    <div class="Ventana" id="vent">
+      <h3>INICIA SESION</h3>
+      <h4>Para obtener acceso a material exclusivo</h4>
+      <div id="cerrar"> <a href="javascript:cerrar()" class="cerrar"><i class="fa fa-times-circle-o"></i></a></div>
+      <form action="">
+        <div class="contenedor-inputs">
+          <input type="text" placeholder="Nombre">
+          <input type="email" placeholder="Correo">
+        </div>
+        <input type="submit" class="btn-submit" value="Iniciar sesion">
+      </form>
+    </div>
+
+    <header>
+      <div class="wrapper">
+      <div class="logo">Universo Manga</div>
+      <nav>
+        <a href="https://tmofans.com/library" target="_blank">Biblioteca</a>
+        <a href="https://tmofans.com/groups" target="_blank">Grupos</a>
+        <a href="https://tmocommunity.com/" target="_blank">Foro</a>
+        <a href="https://tmofans.com/lists" target="_blank">Listas</a>
+        <a href="javascript:abrir()">Iniciar sesion</a>
+      </nav>
+      </div>
+    </header>
+    <div class="main"></div>
+
+    <div class="grid">
+      <img src="img/img1.jpg" alt="">
+      <img src="img/img2.jpg" alt="">
+      <img src="img/img3.jpg" alt="">
+      <img src="img/img4.jpg" alt="">
+      <img src="img/img5.jpg" alt="">
+      <img src="img/img6.jpg" alt="">
+      <img src="img/img7.jpg" alt="">
+      <img src="img/img8.jpg" alt="">
+      <img src="img/img9.jpg" alt="">
+      <img src="img/img10.jpg" alt="">
+      <img src="img/img11.jpg" alt="">
+      <img src="img/img12.jpg" alt="">
+
+    </div>
+    <footer class="footer-second">
+  <p>
+    &copy; <a href="https://facebook.com/TheSj2.0" target="_blank">facebook.com/TheSj2.0</a>
+  </p>
+</footer>
+    <div class="social">
+      <ul>
+        <li><a href="https://www.facebook.com/tumangaonline/" class="icon-facebook2" target="_blank"></a></li>
+        <li><a href="https://twitter.com/TuMangaOnline" class="icon-twitter" target="_blank"></a></li>
+        <li><a href="https://www.instagram.com/thesj___/?hl=es-la" class="icon-instagram" target="_blank" ></a></li>
+      </ul>
+    </div>
+    <script>
+    function abrir(){
+      document.getElementById("vent").style.display="block";
+    }
+
+    function cerrar(){
+      document.getElementById("vent").style.display="none";
+    }
+    </script>
+  </body>
+</html>
